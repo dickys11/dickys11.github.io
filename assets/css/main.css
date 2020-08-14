@@ -322,12 +322,15 @@ a:hover {
 	/* Set your background with this */
 
 	background: #348cb2 url("images/grey-bg.jpg");
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 	height: 100%;
 	left: 0;
 	opacity: 1;
 	position: fixed;
 	top: 0;
+
 }
 
 @-moz-keyframes bg {
@@ -395,7 +398,7 @@ a:hover {
 }
 
 #bg {
-	background-size: 2250px auto;
+	background-size: cover;
 	width: 6750px;
 }
 
@@ -902,8 +905,8 @@ a:hover {
 	}
 
 	#bg {
-		background-size: 1500px auto;
-		width: 4500px;
+		background-size: cover auto;
+		/* width: 4500px; */
 	}
 }
 
@@ -988,8 +991,8 @@ a:hover {
 	}
 
 	#bg {
-		background-size: 750px auto;
-		width: 2250px;
+		background-size: cover auto;
+		/* width: 2250px; */
 	}
 }
 
@@ -1078,8 +1081,8 @@ a:hover {
 	}
 
 	#bg {
-		background-size: 300px auto;
-		width: 900px;
+		background-size: cover auto;
+		/* width: 900px; */
 	}
 
 	/* Header */
@@ -1177,7 +1180,8 @@ a:hover {
 	}
 
 	#bg {
-		background-size: 412.5px auto;
+		background-size: cover;
+		/* height: 100%; */
 		width: 1237.5px;
 	}
 
